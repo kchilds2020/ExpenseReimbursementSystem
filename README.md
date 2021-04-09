@@ -1,8 +1,20 @@
 # Expense Reimbursement System
 
-## Keep track of Reimbursement Tickets / Receipts
+## Project Description
+Keep track of Reimbursement Tickets / Receipts
 
-### Features
+## Technologies Used
+* Backend
+ * Javalin
+ * JDBC
+ * PostgreSQL
+* Frontend
+ * JavaScript
+ * HTML5
+ * CSS3
+ * Bootstrap 5
+
+## Features
 
 * Financial Managers have the ability to 
   * create new accounts in the system
@@ -18,3 +30,4 @@
   * Receive emails when reimbursement is denied
 
 * All passwords were encrypted in the system using Jasypt
+
