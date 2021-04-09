@@ -17,7 +17,7 @@ public class Encryption {
      * */
     public static String encrypt(String password) {
         BasicTextEncryptor textEncryptor = new BasicTextEncryptor();
-        textEncryptor.setPassword("supersecretpassword");
+        textEncryptor.setPassword(System.getenv("ENC_PASSWORD"));
         return textEncryptor.encrypt(password);
     }
 
@@ -26,7 +26,7 @@ public class Encryption {
      * */
     public static String decrypt(String enc) {
         BasicTextEncryptor textEncryptor = new BasicTextEncryptor();
-        textEncryptor.setPassword("supersecretpassword");
+        textEncryptor.setPassword(System.getenv("ENC_PASSWORD"));
         return textEncryptor.decrypt(enc);
     }
 }
