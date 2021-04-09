@@ -8,6 +8,10 @@ import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 public class ReimbursementStatusEmail {
+    
+    private smtpEmail = System.getenv("ERS_SMTP_EMAIL");
+    private smtpPassword = System.getenv("ERS_SMTP_PASSWORD");
+    
     public static void sendMail(Reimbursement reimbursement) throws MessagingException {
         System.out.println("Preparing to send email...");
         Properties properties = new Properties();
@@ -17,8 +21,8 @@ public class ReimbursementStatusEmail {
         properties.put("mail.smtp.host","smtp.gmail.com");
         properties.put("mail.smtp.port","587");
 
-        String myaccountEmail = "javaemailkevchisandbox@gmail.com";
-        String password = "TestPass123";
+        String myaccountEmail = smtpEmail;
+        String password = smtpPassword;
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
