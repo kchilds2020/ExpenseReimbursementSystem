@@ -8,7 +8,7 @@ Keep track of Reimbursement Tickets / Receipts
   * Javalin
   * JDBC
   * PostgreSQL
-* #####Frontend
+* Frontend
   * JavaScript
   * HTML5
   * CSS3
