@@ -4,7 +4,7 @@
 Keep track of Reimbursement Tickets / Receipts
 
 ## Technologies Used
-* #####Backend
+* Backend
   * Javalin
   * JDBC
   * PostgreSQL
