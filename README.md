@@ -4,15 +4,15 @@
 Keep track of Reimbursement Tickets / Receipts
 
 ## Technologies Used
-* Backend
- * Javalin
- * JDBC
- * PostgreSQL
-* Frontend
- * JavaScript
- * HTML5
- * CSS3
- * Bootstrap 5
+* #####Backend
+  * Javalin
+  * JDBC
+  * PostgreSQL
+* #####Frontend
+  * JavaScript
+  * HTML5
+  * CSS3
+  * Bootstrap 5
 
 ## Features
 
