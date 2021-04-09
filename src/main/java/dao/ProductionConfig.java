@@ -3,7 +3,7 @@ package dao;
  * configuration connection for production
  * */
 public class ProductionConfig {
-    public static String url = "jdbc:postgresql://revpracticedb.chqf3b3u3aqm.us-east-2.rds.amazonaws.com/project1";
-    public static String username = "postgresrev";
-    public static String password = "p4ssw0rd";
+    public static String url = System.getenv("JDBC_POSTGRES_URL");;
+    public static String username = System.getenv("JDBC_POSTGRES_USERNAME");
+    public static String password = System.getenv("JDBC_POSTGRES_PASSWORD");
 }
