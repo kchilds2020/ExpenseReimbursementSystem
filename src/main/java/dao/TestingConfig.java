@@ -9,7 +9,7 @@ import java.sql.Statement;
  * configuration connection for testing
  * */
 public class TestingConfig {
-    public static String url = "jdbc:h2:C:\\Users\\kchil\\Desktop";
+    public static String url = "[H2 local location goes here]";
     public static String username = "sa";
     public static String password = "sa";
 
